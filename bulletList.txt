@@ -1,0 +1,32 @@
+-presentation du robot
+--technique qu'est-ce qu'il est capable de faire
+
+-historique : evolution modele
+
+-appication
+--
+
+-apparence
+--cacher elec
+
+
+-notion de l'espace
+--connaissance de son environement
+--mouvement lent
+--roule fluidité
+
+-notion de proximité
+--tablette proche pour interagir
+--distance d'un métre
+--ne touche jamais les gens
+
+
+-notion de contexte
+--hopitaux, maison de retraite, maison personnes agées
+--pas intrusif musique, jeux de memoire
+
+-notion d'interaction
+-- interaction maitre esclave
+-- passif
+-- tablette tactile et smart phone
+-- vocale
