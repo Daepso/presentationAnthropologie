@@ -1,0 +1,47 @@
+\documentclass[handout]{beamer}
+ 
+\usepackage[frenchb]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[footheight=1em]{beamerthemeboxes}
+\usepackage{graphics}
+\usepackage{graphicx}
+ 
+\usetheme{Warsaw}
+
+
+
+\AtBeginSection[]
+{
+\begin{frame}
+	\tableofcontents[currentsection, hideothersubsections]
+\end{frame}
+}
+
+\title[Care'O'bot ~~~~~~~~ \insertframenumber/\inserttotalframenumber]{\'Etude du Care'O'bot}
+\author{Thibaud LAMBERT et Louis LECLECH}
+\institute{ENSEIRB-MATMECA}
+
+
+\begin{document}
+
+	%% Title Page %%
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+	%% Plan %%
+	\begin{frame}
+		\frametitle{Plan}
+		\tableofcontents[hideallsubsections]
+	\end{frame}
+
+	\input{presentation.tex}
+	\input{espace.tex}
+	\input{proxemie.tex}
+	\input{contexte.tex}
+	\input{interaction.tex}
+	\input{conclusion.tex}
+
+
+\end{document}
